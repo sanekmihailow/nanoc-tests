@@ -10,10 +10,3 @@ prune:
 data_sources:
   - type: filesystem
     encoding: utf-8
-
-deploy:
-  default:
-    kind: git
-    remote: https://github.com/sanekmihailow/nanoc-tests.git
-    branch: master
-    forced: true
